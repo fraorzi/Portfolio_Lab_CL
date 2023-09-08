@@ -1,0 +1,66 @@
+@import 'settings/colors';
+@import 'settings/fonts';
+
+.home-header {
+    background-color: $color-lightgray;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            margin-left: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $color-darkgray;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: $color-yellow;
+            }
+        }
+    }
+
+    .main-buttons, .header-buttons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+
+    .main-button, .header-button {
+        margin-left: 20px;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: background-color 0.3s ease;
+    }
+
+    .main-button {
+        background-color: $color-yellow;
+        color: $color-darkgray;
+
+        &:hover {
+            background-color: darken($color-yellow, 10%);
+        }
+    }
+
+    .header-button {
+        background-color: transparent;
+        color: $color-darkgray;
+
+        &:hover {
+            color: $color-yellow;
+        }
+    }
+}
+

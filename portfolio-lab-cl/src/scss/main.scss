@@ -1,8 +1,8 @@
-//@import 'reset-css';
-//@import 'settings/fonts';
-//@import 'settings/colors';
-//
-//
-//body {
-//  font-family: $font-base;
-//}
+@import 'reset-css';
+@import 'settings/fonts';
+@import 'settings/colors';
+@import "homeHeader";
+
+body {
+  font-family: $font-base;
+}

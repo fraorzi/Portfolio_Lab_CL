@@ -1,12 +1,12 @@
 import React from 'react';
 import HomeHeader from './HomeHeader';
-// import HomeThreeColumns from './HomeThreeColumns';
+import HomeThreeColumns from './HomeThreeColumns';
 
 function MainPage() {
     return (
         <div>
             <HomeHeader />
-            {/*<HomeThreeColumns />*/}
+            <HomeThreeColumns />
         </div>
     );
 }
