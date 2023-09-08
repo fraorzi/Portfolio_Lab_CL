@@ -1,15 +1,15 @@
 import React from 'react';
 import HomeHeader from './HomeHeader';
-import HomeThreeColumns from './HomeThreeColumns';
-import './Home.css';
+// import HomeThreeColumns from './HomeThreeColumns';
 
-function Home() {
+function MainPage() {
     return (
         <div>
             <HomeHeader />
-            <HomeThreeColumns />
+            {/*<HomeThreeColumns />*/}
         </div>
     );
 }
 
-export default Home;
+export default MainPage;
+
