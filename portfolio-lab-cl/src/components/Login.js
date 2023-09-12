@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import decorationImage from '../assets/Decoration.svg';
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -14,22 +16,25 @@ function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
     };
 
     return (
-        <div>
+        <div className="login-section">
             <h2>Zaloguj się</h2>
-            <form onSubmit={handleSubmit}>
-                <div>
+            <img src={decorationImage} alt="Decoration" className="login-decoration" />
+            <form className="login-form" onSubmit={handleSubmit}>
+                <div className="login-input-group">
                     <label>Email:</label>
                     <input type="email" value={email} onChange={handleEmailChange} />
                 </div>
-                <div>
+                <div className="login-input-group">
                     <label>Hasło:</label>
                     <input type="password" value={password} onChange={handlePasswordChange} />
                 </div>
-                <button type="submit">Zaloguj</button>
+                <div className="login-buttons">
+                    <Link to="/rejestracja" className="create-account-btn">Załóż konto</Link>
+                    <button type="submit" className="login-btn">Zaloguj</button>
+                </div>
             </form>
         </div>
     );

@@ -1,12 +1,14 @@
-@import 'reset-css';
-@import 'settings/fonts';
-@import 'settings/colors';
+@import "reset-css";
+@import "settings/fonts";
+@import "settings/colors";
 @import "homeHeader";
 @import "homeThreeColumns";
 @import "stepsSection";
 @import "aboutUs";
 @import "whoWeHelp";
 @import "contact";
+@import "login";
+@import "register";
 
 body {
   font-family: $font-base;

@@ -27,20 +27,30 @@
         width: 150px;
     }
 
-    nav ul {
+    .top-menu {
         display: flex;
         justify-content: flex-end;
-        list-style-type: none;
-        padding: 0;
+        gap: 2rem;
 
-        li {
-            margin-left: 20px;
+        .login, .register {
+            text-decoration: none;
+            color: $color-darkgray;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: $color-yellow;
+            }
         }
+    }
+
+    .bottom-menu {
+        display: flex;
+        justify-content: flex-end;
+        gap: 2rem;
 
         a {
             text-decoration: none;
             color: $color-darkgray;
-            font-size: 1.2em;
             transition: color 0.3s ease;
 
             &:hover {
