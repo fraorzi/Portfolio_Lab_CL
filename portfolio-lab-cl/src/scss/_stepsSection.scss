@@ -1,0 +1,49 @@
+.steps-section {
+  padding: 50px 0;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+
+  .steps-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    .step {
+      flex: 1;
+      padding: 20px;
+
+      img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .give-things-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #FAD648;
+    color: #3C3C3C;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darken(#FAD648, 10%);
+    }
+  }
+}
