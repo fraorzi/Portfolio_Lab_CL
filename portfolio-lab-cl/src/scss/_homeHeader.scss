@@ -8,6 +8,25 @@
     flex-direction: column;
     align-items: flex-end;
 
+    .home-hero-img {
+        width: 50%;
+        max-width: 500px;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .header-decoration {
+        display: block;
+        margin: 10px auto;
+        width: 150px;
+    }
+
     nav ul {
         display: flex;
         justify-content: flex-end;

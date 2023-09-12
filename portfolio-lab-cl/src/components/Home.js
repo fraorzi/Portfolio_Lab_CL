@@ -4,6 +4,7 @@ import HomeThreeColumns from './HomeThreeColumns';
 import StepsSection from './StepsSection';
 import AboutUs from "./AboutUs";
 import WhoWeHelp from "./WhoWeHelp";
+import Contact from "./Contact";
 
 
 function MainPage() {
@@ -14,6 +15,7 @@ function MainPage() {
             <StepsSection />
             <AboutUs />
             <WhoWeHelp />
+            <Contact />
         </div>
     );
 }

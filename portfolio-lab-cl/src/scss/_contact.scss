@@ -1,0 +1,76 @@
+.contact-section {
+  background-image: url('../assets/Background-Contact-Form.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .contact-decoration {
+      display: block;
+      margin: 10px auto;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input, textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+      }
+
+      textarea {
+        resize: vertical;
+      }
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 10px 30px;
+      background-color: #FAD648;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: darken(#FAD648, 10%);
+      }
+    }
+  }
+
+  .social-icons {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+
+    a {
+      margin-left: 10px;
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
