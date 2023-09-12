@@ -1,0 +1,33 @@
+@import 'settings/colors';
+@import 'settings/fonts';
+
+.home-three-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+
+  .statistic-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    span {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+}
