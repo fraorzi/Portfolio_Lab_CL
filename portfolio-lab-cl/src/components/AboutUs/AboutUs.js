@@ -1,7 +1,7 @@
 import React from 'react';
-import PeopleImg from '../assets/People.jpg';
-import SignatureImg from '../assets/Signature.svg';
-import DecorationImg from '../assets/Decoration.svg';
+import PeopleImg from '../../assets/People.jpg';
+import SignatureImg from '../../assets/Signature.svg';
+import DecorationImg from '../../assets/Decoration.svg';
 
 function AboutUs() {
     return (

@@ -1,14 +1,14 @@
 @import "reset-css";
 @import "settings/fonts";
 @import "settings/colors";
-@import "homeHeader";
-@import "homeThreeColumns";
-@import "stepsSection";
-@import "aboutUs";
-@import "whoWeHelp";
-@import "contact";
-@import "login";
-@import "register";
+@import "../components/Home/HomeHeader/homeHeader";
+@import "../components/Home/HomeThreeColumns/homeThreeColumns";
+@import "../components/StepsSection/stepsSection";
+@import "../components/AboutUs/aboutUs";
+@import "../components/WhoWeHelp/whoWeHelp";
+@import "../components/Contact/contact";
+@import "../components/Login/login";
+@import "../components/Register/register";
 
 body {
   font-family: $font-base;

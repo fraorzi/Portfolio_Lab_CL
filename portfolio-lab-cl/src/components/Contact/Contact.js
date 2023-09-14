@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import decorationImage from '../assets/Decoration.svg';
-import facebookLogo from '../assets/Facebook.svg';
-import instagramLogo from '../assets/Instagram.svg';
+import decorationImage from '../../assets/Decoration.svg';
+import facebookLogo from '../../assets/Facebook.svg';
+import instagramLogo from '../../assets/Instagram.svg';
 
 function ContactSection() {
     const [formData, setFormData] = useState({

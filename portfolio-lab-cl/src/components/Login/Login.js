@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import decorationImage from '../assets/Decoration.svg';
+import decorationImage from '../../assets/Decoration.svg';
 
 function Login() {
     const [email, setEmail] = useState('');

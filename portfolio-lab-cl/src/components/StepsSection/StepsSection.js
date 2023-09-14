@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Icon1 from '../assets/Icon-1.svg';
-import Icon2 from '../assets/Icon-2.svg';
-import Icon3 from '../assets/Icon-3.svg';
-import Icon4 from '../assets/Icon-4.svg';
+import Icon1 from '../../assets/Icon-1.svg';
+import Icon2 from '../../assets/Icon-2.svg';
+import Icon3 from '../../assets/Icon-3.svg';
+import Icon4 from '../../assets/Icon-4.svg';
 
 function StepsSection() {
     return (

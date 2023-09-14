@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import DecorationImg from '../assets/Decoration.svg';
+import DecorationImg from '../../assets/Decoration.svg';
 
 function WhoWeHelpSection() {
     const [selectedCategory, setSelectedCategory] = useState('fundations');

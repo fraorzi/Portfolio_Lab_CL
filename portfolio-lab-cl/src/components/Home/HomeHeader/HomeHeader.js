@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
-import homeHeroImage from '../assets/Home-Hero-Image.jpg';
-import decorationImage from '../assets/Decoration.svg';
-import Menus from "./Menus";
+import homeHeroImage from '../../../assets/Home-Hero-Image.jpg';
+import decorationImage from '../../../assets/Decoration.svg';
+import Menus from "./Menus/Menus";
 
 function HomeHeader() {
     return (
