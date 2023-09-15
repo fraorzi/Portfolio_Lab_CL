@@ -9,7 +9,7 @@ import Contact from "../Contact/Contact";
 
 function MainPage() {
     return (
-        <div>
+        <div id="home-section">
             <HomeHeader />
             <HomeThreeColumns />
             <StepsSection />

@@ -9,16 +9,15 @@ function HomeHeader() {
         <div className="home-header">
             <img src={homeHeroImage} alt="Home Hero" className="home-hero-img" />
 
-            <div className="header-content">
+            <div className="home-header-content">
                 <Menus />
-
-                <h1>Zacznij pomagać!<br/> Oddaj niechciane rzeczy w zaufane ręce</h1>
+                <h1>Zacznij pomagać!</h1>
+                <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
                 <img src={decorationImage} alt="Decoration" className="header-decoration" />
-
                 <div className="header-buttons">
                     <div className="main-buttons">
-                        <RouterLink to="/login" className="main-button">Oddaj rzeczy</RouterLink>
-                        <RouterLink to="/login" className="main-button">Zorganizuj zbiórkę</RouterLink>
+                        <RouterLink to="/login" className="main-button">Oddaj <br /> rzeczy</RouterLink>
+                        <RouterLink to="/login" className="main-button">Zorganizuj <br /> zbiórkę</RouterLink>
                     </div>
                 </div>
             </div>
