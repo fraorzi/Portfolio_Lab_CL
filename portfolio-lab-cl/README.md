@@ -3,7 +3,6 @@
 ## O projekcie
 Celem projektu jest stworzenie miejsca, w którym każdy będzie mógł oddać niepotrzebne rzeczy zaufanym instytucjom. Projekt będzie stroną internetową z prostym formularzem, który ułatwi użytkownikom oddanie rzeczy.
 
-Magda przeprowadziła wiele badań i obserwacji na podstawie, których przygotowała makietę projektu. Makiety oraz wszelkie dodatkowe informacje o projekcie znajdziesz [w kolejnej zakładce](#).
 
 ## Skąd pomysł na projekt
 Użytkownik ma w domu rzeczy, których chce się pozbyć, ale nie wie jak. Istnieją różne bariery:
