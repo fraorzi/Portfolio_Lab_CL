@@ -1,10 +1,10 @@
 import React from 'react';
-import HomeHeader from './HomeHeader/HomeHeader';
-import HomeThreeColumns from './HomeThreeColumns/HomeThreeColumns';
-import StepsSection from '../StepsSection/StepsSection';
-import AboutUs from "../AboutUs/AboutUs";
-import WhoWeHelp from "../WhoWeHelp/WhoWeHelp";
-import Contact from "../Contact/Contact";
+import HomeHeader from './HomeHeader';
+import HomeThreeColumns from './HomeThreeColumns';
+import StepsSection from '../StepsSection';
+import AboutUs from "../AboutUs";
+import WhoWeHelp from "../WhoWeHelp";
+import Contact from "../Contact";
 
 
 function MainPage() {

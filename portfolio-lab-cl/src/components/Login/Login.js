@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import decorationImage from '../../assets/Decoration.svg';
+import closeCircle from '../../assets/close-circle-svgrepo-com.svg';
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -20,6 +21,9 @@ function Login() {
 
     return (
         <div className="login-section">
+            <Link to="/">
+                <img src={closeCircle} alt="closeCircle" className="close-circle" />
+            </Link>
             <h2>Zaloguj się</h2>
             <img src={decorationImage} alt="Decoration" className="login-decoration" />
             <form className="login-form" onSubmit={handleSubmit}>
@@ -33,7 +37,7 @@ function Login() {
                 </div>
                 <div className="login-buttons">
                     <Link to="/rejestracja" className="create-account-btn">Załóż konto</Link>
-                    <button type="submit" className="login-btn">Zaloguj</button>
+                    <button type="submit" className="login-btn">Zaloguj się</button>
                 </div>
             </form>
         </div>
