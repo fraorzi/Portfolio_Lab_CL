@@ -1,0 +1,72 @@
+.register-section {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+
+  .close-circle {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    cursor: pointer;
+    right: 700px;
+    top: 300px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+
+  .register-decoration {
+    margin-bottom: 0;
+  }
+
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+    .register-input-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0;
+      background-color: #e1e1e1;
+
+      label {
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
+
+      input {
+        padding: 5px 0;
+        border: none;
+        border-bottom: 2px solid black;
+        border-radius: 0;
+        background-color: transparent;
+      }
+    }
+
+    .register-buttons {
+      display: flex;
+      justify-content: space-between;
+
+      .create-account-btn, .register-btn {
+        padding: 10px 20px;
+        cursor: pointer;
+        background-color: transparent;
+        text-decoration: none;
+        color: darkgray;
+        font-size: 18px;
+      }
+
+      .register-btn {
+        border: 2px solid black;
+      }
+
+      .create-account-btn:hover, .register-btn:hover {
+      }
+    }
+  }
+}

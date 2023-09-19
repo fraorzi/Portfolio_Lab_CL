@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 
 function Register() {
-    const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const handleNameChange = (e) => {
-        setName(e.target.value);
-    };
+
 
     const handleEmailChange = (e) => {
         setEmail(e.target.value);
@@ -23,22 +20,22 @@ function Register() {
     };
 
     return (
-        <div>
-            <h2>Zarejestruj się</h2>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label>Imię i nazwisko:</label>
-                    <input type="text" value={name} onChange={handleNameChange} />
-                </div>
-                <div>
+        <div className="login-section">
+            <h2>Załóż konto</h2>
+            <form className="login-form" onSubmit={handleSubmit}>                <div className="login-section">
                     <label>Email:</label>
                     <input type="email" value={email} onChange={handleEmailChange} />
                 </div>
-                <div>
+                <div className="login-section">
                     <label>Hasło:</label>
                     <input type="password" value={password} onChange={handlePasswordChange} />
                 </div>
-                <button type="submit">Zarejestruj</button>
+
+                <div className="login-input-group">
+                    <label>Powtórz hasło:</label>
+                    <input type="password" value={password} onChange={handlePasswordChange} />
+                </div>
+                <button type="submit" className="login-btn">Zarejestruj</button>
             </form>
         </div>
     );
