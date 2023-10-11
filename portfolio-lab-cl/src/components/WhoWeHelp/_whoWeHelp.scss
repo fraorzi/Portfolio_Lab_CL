@@ -66,3 +66,27 @@
   }
 }
 
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    button {
+        margin: 0 5px;
+        padding: 5px 10px;
+        border: 2px solid #000;
+        background-color: transparent;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #FAD648;
+        }
+
+        &.active {
+            background-color: #FAD648;
+            color: #000;
+        }
+    }
+}
