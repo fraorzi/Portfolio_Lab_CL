@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import decorationImage from '../../assets/Decoration.svg';
+import closeCircle from '../../assets/close-circle-svgrepo-com.svg';
+
 
 function Register() {
     const [email, setEmail] = useState('');
@@ -21,7 +25,11 @@ function Register() {
 
     return (
         <div className="login-section">
-            <h2>Załóż konto</h2>
+            <Link to="/">
+    <img src={closeCircle} alt="closeCircle" className="close-circle" />
+</Link>
+<h2>Załóż konto</h2>
+<img src={decorationImage} alt="Decoration" className="login-decoration" />
             <form className="login-form" onSubmit={handleSubmit}>                <div className="login-section">
                     <label>Email:</label>
                     <input type="email" value={email} onChange={handleEmailChange} />
