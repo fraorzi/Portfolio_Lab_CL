@@ -36,7 +36,7 @@ function Login() {
                     <input type="password" value={password} onChange={handlePasswordChange} />
                 </div>
                 <div className="login-buttons">
-                    <Link to="/rejestracja" className="create-account-btn">Załóż konto</Link>
+                    <Link to="/register" className="create-account-btn">Załóż konto</Link>
                     <button type="submit" className="login-btn">Zaloguj się</button>
                 </div>
             </form>
