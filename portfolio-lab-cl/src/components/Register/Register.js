@@ -24,26 +24,28 @@ function Register() {
     };
 
     return (
-        <div className="login-section">
+        <div className="register-section">
             <Link to="/">
     <img src={closeCircle} alt="closeCircle" className="close-circle" />
 </Link>
 <h2>Załóż konto</h2>
-<img src={decorationImage} alt="Decoration" className="login-decoration" />
-            <form className="login-form" onSubmit={handleSubmit}>                <div className="login-section">
-                    <label>Email:</label>
+<img src={decorationImage} alt="Decoration" className="register-decoration" />
+            <form className="register-form" onSubmit={handleSubmit}>
+                <div className="register-input-group">
+                    <div className="input-container">
+                        <label>Email:</label>
                     <input type="email" value={email} onChange={handleEmailChange} />
-                </div>
-                <div className="login-section">
-                    <label>Hasło:</label>
+                    </div>
+                    <div className="input-container">
+                        <label>Hasło:</label>
                     <input type="password" value={password} onChange={handlePasswordChange} />
-                </div>
-
-                <div className="login-input-group">
-                    <label>Powtórz hasło:</label>
+                    </div>
+                    <div className="input-container">
+                        <label>Powtórz hasło:</label>
                     <input type="password" value={password} onChange={handlePasswordChange} />
+                    </div>
                 </div>
-                <button type="submit" className="login-btn">Zarejestruj</button>
+                <button type="submit" className="register-btn">Zarejestruj</button>
             </form>
         </div>
     );

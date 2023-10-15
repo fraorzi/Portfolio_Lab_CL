@@ -1,72 +1,75 @@
-//.login-section {
-//  margin-top: 15%;
-//  display: flex;
-//  flex-direction: column;
-//  align-items: center;
-//  padding: 50px;
-//
-//  .close-circle {
-//    height: 40px;
-//    width: 40px;
-//    position: absolute;
-//    cursor: pointer;
-//    right: 700px;
-//    top: 300px;
-//  }
-//
-//  h2 {
-//    margin-bottom: 20px;
-//    font-size: 30px;
-//  }
-//
-//  .login-decoration {
-//    margin-bottom: 20px;
-//  }
-//
-//  .login-form {
-//    display: flex;
-//    flex-direction: column;
-//    width: 350px;
-//
-//    .login-input-group {
-//      display: flex;
-//      flex-direction: column;
-//      margin-bottom: 20px;
-//      background-color: #e1e1e1;
-//
-//      label {
-//        margin-bottom: 5px;
-//        font-size: 18px;
-//      }
-//
-//      input {
-//        padding: 5px 0;
-//        border: none;
-//        border-bottom: 2px solid black;
-//        border-radius: 0;
-//        background-color: transparent;
-//      }
-//    }
-//
-//    .login-buttons {
-//      display: flex;
-//      justify-content: space-between;
-//
-//      .create-account-btn, .login-btn {
-//        padding: 10px 20px;
-//        cursor: pointer;
-//        background-color: transparent;
-//        text-decoration: none;
-//        color: darkgray;
-//        font-size: 18px;
-//      }
-//
-//      .login-btn {
-//        border: 2px solid black;
-//      }
-//
-//      .create-account-btn:hover, .login-btn:hover {
-//      }
-//    }
-//  }
-//}
+.register-section {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+
+  .close-circle {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    cursor: pointer;
+    right: 700px;
+    top: 300px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .register-decoration {
+    margin-bottom: 20px;
+  }
+
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      background-color: #e1e1e1;
+
+      label {
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
+
+      input {
+        padding: 5px 0;
+        border: none;
+        border-bottom: 2px solid black;
+        border-radius: 4px;
+        background-color: transparent;
+      }
+    }
+
+    .register-btn {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 40px;
+      cursor: pointer;
+      background-color: transparent;
+      text-decoration: none;
+      color: darkgray;
+      font-size: 18px;
+      border: 2px solid black;
+      border-radius: 4px;
+      width: 50%;
+      align-self: flex-end;
+    }
+  }
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+
